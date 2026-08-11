@@ -1,10 +1,13 @@
 # =========================
 # Frontend
 # =========================
-frontend/.next/
 frontend/node_modules/
+frontend/.next/
 frontend/.env*
 !frontend/.env.example
+
+# Next.js generated files
+frontend/next-env.d.ts
 
 # =========================
 # Backend
@@ -19,12 +22,13 @@ backend/*.pyc
 # =========================
 .env
 *.env
+backend/.env
 
 # =========================
 # Database
 # =========================
-backend/portfolio.db
 *.db
+backend/portfolio.db
 
 # =========================
 # Uploads
@@ -36,7 +40,6 @@ uploads/
 # Python
 # =========================
 *.pyc
-__pycache__/
 .pytest_cache/
 
 # =========================
