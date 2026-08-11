@@ -14,3 +14,8 @@ backend/portfolio.db
 
 # Uploads
 backend/uploads/*
+# Virtual Environment
+venv/
+backend/venv/
+portfolio.db
+backend/venv
