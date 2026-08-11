@@ -1,21 +1,52 @@
+# =========================
 # Frontend
-frontend/.next
-frontend/node_modules
+# =========================
+frontend/.next/
+frontend/node_modules/
+frontend/.env*
+!frontend/.env.example
 
+# =========================
 # Backend
-backend/venv
-backend/__pycache__
-
-# Database
-backend/portfolio.db
-
-# Environment
-.env
-
-# Uploads
-backend/uploads/*
-# Virtual Environment
-venv/
+# =========================
 backend/venv/
-portfolio.db
-backend/venv
+backend/__pycache__/
+backend/**/__pycache__/
+backend/*.pyc
+
+# =========================
+# Environment
+# =========================
+.env
+*.env
+
+# =========================
+# Database
+# =========================
+backend/portfolio.db
+*.db
+
+# =========================
+# Uploads
+# =========================
+backend/uploads/
+uploads/
+
+# =========================
+# Python
+# =========================
+*.pyc
+__pycache__/
+.pytest_cache/
+
+# =========================
+# IDE
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# OS
+# =========================
+.DS_Store
+Thumbs.db
